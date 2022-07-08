@@ -1,0 +1,78 @@
+#hero{
+    width: 100%;
+    background-image: url("./../../images/yaniv-cohen-8lMcCZvBRkU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    color: var(--light-color);
+}
+.hero__wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+}
+
+.hero__wrapper p{
+    margin: 2rem 0rem;
+}
+
+.hero__wrapper--left{
+    margin: 20rem 0rem;
+}
+
+.hero__wrapper--right{
+    margin-top: 170px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.rotate-p{
+    color: white;
+    transform: rotate(270deg);
+    position: absolute;
+    right: 0px;
+}
+
+.one{
+    position: relative;
+    top: -130px;
+    right: -40px;
+    margin-bottom: 20px;
+}
+
+.two{
+    position: relative;
+    top: -50px;
+    right: -30px;
+}
+
+.nav__list a{
+    color: var(--light-color);
+}
+
+@media (max-width:900px) {
+    .hero__wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 0.2fr;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:900px) {
+    .hero__wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 0.2fr;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+}

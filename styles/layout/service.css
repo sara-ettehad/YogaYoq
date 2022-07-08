@@ -1,0 +1,25 @@
+.other{
+    position: relative;
+    top: 480px;
+}
+.service__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+@media (max-width:900px) {
+    .service__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .service__wrapper h1{
+        position: relative;
+        top: 70px;
+    }
+}

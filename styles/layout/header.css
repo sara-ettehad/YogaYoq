@@ -1,0 +1,40 @@
+#header{
+    z-index: 999;
+}
+.header__wrapper{
+    background: transparent;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrapper--lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.nav__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list{
+    margin: 0rem 1.4rem;
+    color: var(--light-color);
+}
+
+@media(max-width:700px){
+    
+    .nav__list{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}

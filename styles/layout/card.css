@@ -1,0 +1,45 @@
+.cards__wrapper{
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 60px;
+}
+.process-box{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.process-box p{
+    margin-bottom: 1rem;
+
+}
+
+h3{
+    margin:1rem 0rem ;
+}
+
+p{
+    color: gray;
+}
+
+.process-box a{
+    color: rgb(236, 213, 14);
+    text-decoration: underline;
+
+}
+
+.process-box a:hover{
+    transition: all 0.3s ease-in-out;
+    transform: translatex(0.5rem);
+}
+
+.process-box:hover{
+    
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-2rem);
+}
